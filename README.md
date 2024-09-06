@@ -5,11 +5,20 @@ The following functions perform (pseudo-)analytical or numerical estimations of 
 
 Hopf model:
 
-- StochSim_DelayedHopfNet.m : stochastic numerical simulations of the network of N hopf nodes with delayed interactions.
-- DelayedHopfModel_LNA.m :  calculates the covariance, the lagged-covariance, the power spectral density, and the cross-spectrum using the linear approximation
+- StochSim_HopfNet.m : stochastic numerical simulations of the network of N hopf nodes.
+- StochSim_HopfNet_stimulated.m : stochastic numerical simulations of the network of N hopf nodes under external inputs
+- HopfModel_LNA.m :  calculates the covariance, the lagged-covariance, the power spectral density, and the cross-spectrum using the linear approximation
 
 Wilson-Cowan model:
 
 - WCcoupled_StochSim.m : stochastic numerical simulations of the network of N E-I nodes with delayed interactions.
 - WCcoupled_LNA_function.m :  calculates the covariance, the lagged-covariance, the power spectral density, and the cross-spectrum using the linear approximation
+
+Linear model:
+
+- LangevinSyst.m : Ornstein–Uhlenbeck process
+
+Connectome:
+
+- DK_connectome.mat : connectivity matrix (DK parcellation)
 
