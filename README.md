@@ -16,7 +16,7 @@ Wilson-Cowan model:
 
 Linear model:
 
-- LangevinSyst.m : Ornstein–Uhlenbeck process
+- LangevinSystem.m : Ornstein–Uhlenbeck process
 
 Connectome:
 
