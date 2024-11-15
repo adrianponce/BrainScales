@@ -22,3 +22,7 @@ Connectome:
 
 - DK_connectome.mat : connectivity matrix (DK parcellation)
 
+Regional heterogeneity map:
+
+- Tw1Tw2Map.mat : connectivity matrix for each parcellation.
+
